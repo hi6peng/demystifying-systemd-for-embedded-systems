@@ -4,4 +4,4 @@
 
 set -xe
 
-(cd src/systemd-${SYSTEMD_VERSION} && ./autogen.sh)
+#(cd src/systemd-${SYSTEMD_VERSION} && ./autogen.sh)

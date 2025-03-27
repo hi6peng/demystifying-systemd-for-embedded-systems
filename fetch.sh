@@ -9,7 +9,7 @@ cd download
 set -xe
 
 echo "download linux-${KERNEL_VERSION}"
-curl -L https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-${KERNEL_VERSION}.tar.xz -o linux-${KERNEL_VERSION}.tar.xz.partial
+curl -L https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-${KERNEL_VERSION}.tar.xz -o linux-${KERNEL_VERSION}.tar.xz.partial
 
 mv linux-${KERNEL_VERSION}.tar.xz.partial linux-${KERNEL_VERSION}.tar.xz
 
